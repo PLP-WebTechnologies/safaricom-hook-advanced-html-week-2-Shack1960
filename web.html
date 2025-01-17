@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore hiking tips, breathtaking views, and gear for your next adventure. Join us at Hiking.com.">
+    <title>Hiking.com</title>
+    <style>
+         header {
+            background: #5b1f03;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+        }
+        footer {
+            text-align: center;
+            background: #5b1f03;
+            color: #fff;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #5b1f03;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #762a0a;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>THE TRAILS</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href= "#Form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Home</h2>
+            <h2>Here at trails, we organize fun-filled hikes on the most exciting trails across East Africa.</h2>
+        </section>
+
+        <section id="gallery">
+        <article>
+            <h3>The path is calling</h3>
+            <img src="images/path.jpg" alt="A scenic path in forested mountains" width="1000">
+            <p>Hiking is not just a physical exercise; it also engages the mind and soul.</p>
+            <p>The silent walks after all the laughter has settled compel one to think and be one with themselves. Ironically, all it takes is casting yourself into nature.</p>
+        </article>
+
+        <article>
+            <h3>Gear Up for Hiking</h3>
+            <img src="images/boots.jpg" alt="A pair of sturdy hiking boots" width="1000">
+            <p>Get your hiking boots ready! Those sneakers won't cut it out here.</p>
+            <img src="images/shorts.jpg" alt="Comfortable hiking shorts under a bright sky" width="1000">
+            <p>Don't forget to pack lightweight clothing to enjoy the sun.</p>
+        </article>
+
+        <article>
+            <h3>Enjoy the Views</h3>
+            <img src="images/sunsets.jpg" alt="A breathtaking orange sunset over the mountains" width="1000">
+            <p>Take a moment to enjoy the breathtaking views and unforgettable sunsets.</p>
+        </article>
+        <article>
+        <h3>Audio Experience</h3>
+        <audio controls>
+            <source src="images/climb.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video Experience</h3>
+<video controls poster="images/imagesvideo-poster.jpg" width="720">
+    <source src="images/blizzard.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+<video controls poster="images/imagesvideo-poster.jpg" width="640">
+    <source src="images/joy.webm" type="video/webm">
+    Your browser does not support the video element.
+</video>
+
+        </article>
+
+        </section>
+
+       
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Join us if you enjoy hiking. Experience the joy of connecting with nature on every trail.</p>
+        </section>
+
+
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: +254774839223</p>
+            <p>Phone: +255778645334</p>
+        </section>
+        <section id="Form">
+            <h2>Join Our Hike</h2>
+            <form action="#" method="post">
+                <!-- Personal Details Section -->
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required maxlength="50">
+        
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required maxlength="50">
+        
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+        
+                <!-- Authentication Section -->
+                <fieldset>
+                    <legend>Authentication</legend>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required minlength="8">
+                </fieldset>
+        
+                <!-- Demographics Section -->
+                <fieldset>
+                    <legend>Demographics</legend>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required min="18">
+        
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </fieldset>
+        
+                <!-- Terms Section -->
+                <fieldset>
+                    <legend>Terms</legend>
+                    <label>
+                        <input type="checkbox" name="terms" required> I agree to the terms and conditions
+                    </label>
+                </fieldset>
+        
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hiking.com. All rights reserved.</p>
+    </footer>
+</body>
+</html>
